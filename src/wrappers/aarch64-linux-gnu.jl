@@ -27,14 +27,18 @@ const libatspi = "libatspi.so.0"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"at_spi2_core")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Dbus_jll.PATH_list, Glib_jll.PATH_list, Xorg_libXtst_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Dbus_jll.LIBPATH_list, Glib_jll.LIBPATH_list, Xorg_libXtst_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (Dbus_jll.PATH_list, Glib_jll.PATH_list, Xorg_libXtst_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Dbus_jll.LIBPATH_list, Glib_jll.LIBPATH_list, Xorg_libXtst_jll.LIBPATH_list,))
 
-    global libatspi_path = abspath(joinpath(artifact"at_spi2_core", libatspi_splitpath...))
+    global libatspi_path = normpath(joinpath(artifact_dir, libatspi_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
