@@ -1,6 +1,6 @@
 name = "at_spi2_core_jll"
 uuid = "0fc3237b-ac94-5853-b45c-d43d59a06200"
-version = "2.34.0+2"
+version = "2.34.0+3"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
