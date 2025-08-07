@@ -1,128 +1,128 @@
 [[at_spi2_core]]
 arch = "aarch64"
-git-tree-sha1 = "f40e686a1a8b5db85288162f46fca96bee44089e"
+git-tree-sha1 = "022e2c091094b0baa452dcabc57a224730c02f59"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "e04f363480ed533d6525438ef62113b5515764f5c4cf3f428b07927e4d710f38"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.aarch64-linux-gnu.tar.gz"
+    sha256 = "f832a99b63c8d822b4713961d0b461404f667abc36d5c7bb181e86c6629787a2"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.aarch64-linux-gnu.tar.gz"
 [[at_spi2_core]]
 arch = "aarch64"
-git-tree-sha1 = "a3d248c637d664d256ef4f2fe7a9295bead47969"
+git-tree-sha1 = "9510965c89ccffb10c44764b40397aeb6926f3a1"
 libc = "musl"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "8ae1acd6fa23fa222244e1182674d632b7d6f47d91d8f8f60f8c37708bf2b45e"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.aarch64-linux-musl.tar.gz"
+    sha256 = "9e953643f04f06ff2a1b7577b8f95d982e58e36075f444ff0eda25dbd9573208"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.aarch64-linux-musl.tar.gz"
 [[at_spi2_core]]
 arch = "aarch64"
-git-tree-sha1 = "50b5167b7d23db89913b70689d62ba6bbc6b98eb"
+git-tree-sha1 = "7df61350a56c193f9349d69f0686bb0a7c7b73cd"
 os = "freebsd"
 
     [[at_spi2_core.download]]
-    sha256 = "5dba1476533c0635bf756a3dd19083190f9ec28b6a82b327e401236bd64d0b03"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "03ab0e3878796df6bf22074ccce328f708095c41d7a0dfc5ae76ce77af8e6eee"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.aarch64-unknown-freebsd.tar.gz"
 [[at_spi2_core]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "b8e074c165031a6d2ba890b28f1a14aa74799795"
+git-tree-sha1 = "22bc3506311f9c89554380048c9b3e729048d7d6"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "7dc5ca94df9f9f7aa1b4e16591d528c17cf6eabf45dfc266bfa8252b6e9edaf7"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "9562282f25e65665c5094380e3dd84c1ef5aa617b86459b242c87072a19c3ae7"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.armv6l-linux-gnueabihf.tar.gz"
 [[at_spi2_core]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "d80534198e08b689a24c60963d1b88d456571ef6"
+git-tree-sha1 = "3e78efa572e4d6f1b8df66db8019a84af16246d7"
 libc = "musl"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "6a97b0fd6d1c2cbee9542fb4ccaa10289d5539460ee94b809ceb8b5febdb6561"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "da9c3adf0c6fdbe12159b5cb2955ab8b83e5b75ab26094134e13b03bd83e4b5a"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.armv6l-linux-musleabihf.tar.gz"
 [[at_spi2_core]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "0f0d85a8b1ce450627baa5155349bc87bfd20582"
+git-tree-sha1 = "5f3ed03d63d87e265b88cd32fcbe942c82fc3d54"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "c734b5edbcea6f49608c85bf204fe557babe1079f3fee2ee7c6745f84a6df14c"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "452c551b00cba3330256adbcf669b405a6b5ee650b48568b8f297b446c0460af"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.armv7l-linux-gnueabihf.tar.gz"
 [[at_spi2_core]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "311c47ce7b5b40e73c260dab916cd9cce6a9662b"
+git-tree-sha1 = "a0eb96c75b3635c7da374870a215ae012369d013"
 libc = "musl"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "2129679c426cc4408199e9ecc0aa72f15620238ddbc104edce412c7be0ddfde6"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "a8112279ea5f6dfea23af7bc6016709dd855276cc1da98b5c584ceb8df7105d6"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.armv7l-linux-musleabihf.tar.gz"
 [[at_spi2_core]]
 arch = "i686"
-git-tree-sha1 = "514d6ddf7fcd489111086058596ebbac87bb4d81"
+git-tree-sha1 = "4765f22ab00c1286e3b7ae3f79702ae19b9244d4"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "a9d8a99188112f9dab3a94cd77f4c4d5f3a650ab8bdfae3b877b107304fc7274"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.i686-linux-gnu.tar.gz"
+    sha256 = "c6921914cbff681d34a55b46919e03dda467294c7de5574d885339f75d8021ae"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.i686-linux-gnu.tar.gz"
 [[at_spi2_core]]
 arch = "i686"
-git-tree-sha1 = "be3431e594983bf53148279dbf39caa7fea1e463"
+git-tree-sha1 = "a3030e86de72bdcac7b4d56a6bf7c91e23a45510"
 libc = "musl"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "85c6ad226d84652775f1416e0b14b57868d1f1cd321a0d930ef6f6ae810a5980"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.i686-linux-musl.tar.gz"
+    sha256 = "8056c3e1903dcd678c0b32ab1b4113e8ed6c0d391a8cbc7a361ab92926e40825"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.i686-linux-musl.tar.gz"
 [[at_spi2_core]]
 arch = "powerpc64le"
-git-tree-sha1 = "ee3816667d76e3afbb7e4f4b5edad9bb164bb11e"
+git-tree-sha1 = "555a8a0dafaf9fc7a50549f13b5e0cbbbb33d110"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "a96f53577d2cc026fc11864dc9dd96368cb8b12b4a08cc28fd39ba2200e06861"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "c15920101efabd7726ea3c3c478bc0ea837cd6f8714125abb3a05a6a1a1b08f7"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.powerpc64le-linux-gnu.tar.gz"
 [[at_spi2_core]]
 arch = "riscv64"
-git-tree-sha1 = "144d2bbd134b6fea45a11d72318aa86e86b2b092"
+git-tree-sha1 = "3f8b3eadd640740a832cff3105516bc4059c3de1"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "8bceab5958bb984156c7b28bdcbbf636030608fbe879d37373eca19bb72d238e"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.riscv64-linux-gnu.tar.gz"
+    sha256 = "0ccc6436844559723fb351338e868055d310ea48c9aebfd83716a7e9601d9c7b"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.riscv64-linux-gnu.tar.gz"
 [[at_spi2_core]]
 arch = "x86_64"
-git-tree-sha1 = "b9d44c6cb0ee42cf741e76bff5c52a27b82155ef"
+git-tree-sha1 = "f176e675f6d6c563c08779519d6d6e14d809a584"
 libc = "glibc"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "af6131d7f150ae0706d12ea7279199cc19a5bcdd7098ce571e2de7fbaf3ac584"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "2d6e4b6465498305257ed71435ae20c174ccaf4753ec28fedf8a67200772a559"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.x86_64-linux-gnu.tar.gz"
 [[at_spi2_core]]
 arch = "x86_64"
-git-tree-sha1 = "8a27729159d17b7b233b69c76f576273b95a2582"
+git-tree-sha1 = "a22d861f27771edc9afb74f305f9e041eabc6537"
 libc = "musl"
 os = "linux"
 
     [[at_spi2_core.download]]
-    sha256 = "9db139018f64ac13b391830a9b230de8d81dac048dc98b0cef57837a6939ceb4"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.x86_64-linux-musl.tar.gz"
+    sha256 = "daba27f515cf9b221d22b490a8ecefc68025fec0865b37c18d8de44ffac3f4ab"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.x86_64-linux-musl.tar.gz"
 [[at_spi2_core]]
 arch = "x86_64"
-git-tree-sha1 = "3c041bd7b561ed7d49aa32c23834b9962f98fb73"
+git-tree-sha1 = "872c74a3d1877cb4409dc637ca3b9db79a8fa7b5"
 os = "freebsd"
 
     [[at_spi2_core.download]]
-    sha256 = "c8ce72659a6b9d0af6eeb0ade1c9b8e417b2bb9183e5c6f6ad49b3c31ec0dc61"
-    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.56.2+0/at_spi2_core.v2.56.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "121180b4a2b2b8e9018aec01484648ddde07e66e6969a0e06266df00c5bd5e38"
+    url = "https://github.com/JuliaBinaryWrappers/at_spi2_core_jll.jl/releases/download/at_spi2_core-v2.57.1+0/at_spi2_core.v2.57.1.x86_64-unknown-freebsd.tar.gz"
